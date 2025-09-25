@@ -101,7 +101,7 @@ export function ModelCardsGrid({ isLoading = false }: ModelCardsGridProps) {
                       <div className="flex items-center gap-2">
                         <h3 className={cn(
                           "font-semibold text-base transition-colors duration-200 truncate",
-                          "text-white-300 dark:text-black-100",
+                          "text-gray-900 dark:text-gray-100", // Fixed: Valid Tailwind classes
                           hoveredCard === model.id && "text-blue-600 dark:text-blue-400"
                         )}>
                           {model.name}
@@ -119,7 +119,7 @@ export function ModelCardsGrid({ isLoading = false }: ModelCardsGridProps) {
                           </Badge>
                         )}
                       </div>
-                      <p className="text-sm text-white-300 dark:text-black-400 leading-relaxed line-clamp-2">
+                      <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed line-clamp-2">
                         {model.description}
                       </p>
                     </div>

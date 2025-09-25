@@ -4,7 +4,7 @@ A pixel-perfect clone of the Krea AI interface built with Next.js 15, TypeScript
 
 ## 🚀 Live Demo
 
-**[View Live Demo](https://your-vercel-deployment-url.vercel.app)**
+**[View Live Demo](https://krea-ai-clone-beta.vercel.app/)**
 
 ## 📸 Screenshots
 
