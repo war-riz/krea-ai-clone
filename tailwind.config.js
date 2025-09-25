@@ -1,10 +1,67 @@
 /** @type {import('tailwindcss').Config} */
 const config = {
+  darkMode: ["class"],
+  
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  
+  safelist: [
+    // Gradient backgrounds
+    'bg-gradient-to-br',
+    'from-blue-50',
+    'from-blue-900/30',
+    'to-indigo-100',
+    'to-indigo-900/30',
+    'from-amber-50',
+    'from-amber-900/30',
+    'to-orange-100',
+    'to-orange-900/30',
+    'from-cyan-50',
+    'from-cyan-900/30',
+    'to-teal-100',
+    'to-teal-900/30',
+    'from-emerald-50',
+    'from-emerald-900/30',
+    'to-green-100',
+    'to-green-900/30',
+    'from-purple-50',
+    'from-purple-900/30',
+    'to-violet-100',
+    'to-violet-900/30',
+    'from-green-50',
+    'from-green-900/30',
+    'to-lime-100',
+    'to-lime-900/30',
+    'from-rose-50',
+    'from-rose-900/30',
+    'to-pink-100',
+    'to-pink-900/30',
+    'from-indigo-50',
+    'from-indigo-900/30',
+    'to-blue-100',
+    'to-blue-900/30',
+    // Icon wrapper colors
+    'bg-blue-500',
+    'bg-blue-600',
+    'bg-amber-500',
+    'bg-amber-600',
+    'bg-cyan-500',
+    'bg-cyan-600',
+    'bg-emerald-500',
+    'bg-emerald-600',
+    'bg-purple-500',
+    'bg-purple-600',
+    'bg-green-500',
+    'bg-green-600',
+    'bg-rose-500',
+    'bg-rose-600',
+    'bg-indigo-500',
+    'bg-indigo-600',
+  ],
+  
   theme: {
     extend: {
       colors: {
@@ -72,6 +129,7 @@ const config = {
       },
     },
   },
+  plugins: [],
 };
 
 export default config;
