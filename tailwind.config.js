@@ -9,34 +9,52 @@ const config = {
   ],
   
   safelist: [
-    // Background gradients
-    { pattern: /^bg-gradient-to-/ },
-    { pattern: /^from-/ },
-    { pattern: /^to-/ },
-    { pattern: /^bg-gradient-to-/ },
-    { pattern: /^from-(blue|amber|cyan|emerald|purple|green|rose|indigo)-(50|900)/ },
-    { pattern: /^to-(indigo|orange|teal|green|violet|lime|pink|blue)-(100|900)/ },
-    { pattern: /^bg-(blue|amber|cyan|emerald|purple|green|rose|indigo)-(500|600)/ },
-    // Solid backgrounds
-    { pattern: /^bg-(blue|amber|cyan|emerald|purple|green|rose|indigo)-(50|100|500|600|900)/ },
-    // With opacity variations
-    { pattern: /^bg-(blue|amber|cyan|emerald|purple|green|rose|indigo)-900\/30$/ },
-    // Text colors
-    { pattern: /^text-white$/ },
+    // Ensure all gradient classes are included
     'bg-gradient-to-br',
-    'from-blue-50', 'to-indigo-100', 'from-blue-900/30', 'to-indigo-900/30',
-    'from-amber-50', 'to-orange-100', 'from-amber-900/30', 'to-orange-900/30',
-    'from-cyan-50', 'to-teal-100', 'from-cyan-900/30', 'to-teal-900/30',
-    'from-emerald-50', 'to-green-100', 'from-emerald-900/30', 'to-green-900/30',
-    'from-purple-50', 'to-violet-100', 'from-purple-900/30', 'to-violet-900/30',
-    'from-green-50', 'to-lime-100', 'from-green-900/30', 'to-lime-900/30',
-    'from-rose-50', 'to-pink-100', 'from-rose-900/30', 'to-pink-900/30',
-    'from-indigo-50', 'to-blue-100', 'from-indigo-900/30', 'to-blue-900/30',
-    'bg-blue-500', 'bg-blue-600', 'bg-amber-500', 'bg-amber-600',
-    'bg-cyan-500', 'bg-cyan-600', 'bg-emerald-500', 'bg-emerald-600',
-    'bg-purple-500', 'bg-purple-600', 'bg-green-500', 'bg-green-600',
-    'bg-rose-500', 'bg-rose-600', 'bg-indigo-500', 'bg-indigo-600',
+    
+    // All the specific gradient combinations
+    'from-blue-50', 'to-indigo-100', 
+    'from-blue-900/30', 'to-indigo-900/30',
+    'from-amber-50', 'to-orange-100', 
+    'from-amber-900/30', 'to-orange-900/30',
+    'from-cyan-50', 'to-teal-100', 
+    'from-cyan-900/30', 'to-teal-900/30',
+    'from-emerald-50', 'to-green-100', 
+    'from-emerald-900/30', 'to-green-900/30',
+    'from-purple-50', 'to-violet-100', 
+    'from-purple-900/30', 'to-violet-900/30',
+    'from-green-50', 'to-lime-100', 
+    'from-green-900/30', 'to-lime-900/30',
+    'from-rose-50', 'to-pink-100', 
+    'from-rose-900/30', 'to-pink-900/30',
+    'from-indigo-50', 'to-blue-100', 
+    'from-indigo-900/30', 'to-blue-900/30',
+    
+    // Icon wrapper backgrounds
+    'bg-blue-500', 'bg-blue-600', 
+    'bg-amber-500', 'bg-amber-600',
+    'bg-cyan-500', 'bg-cyan-600', 
+    'bg-emerald-500', 'bg-emerald-600',
+    'bg-purple-500', 'bg-purple-600', 
+    'bg-green-500', 'bg-green-600',
+    'bg-rose-500', 'bg-rose-600', 
+    'bg-indigo-500', 'bg-indigo-600',
+    
+    // Text colors
     'text-white',
+    
+    // Dark mode variants
+    'dark:from-blue-900/30', 'dark:to-indigo-900/30',
+    'dark:from-amber-900/30', 'dark:to-orange-900/30',
+    'dark:from-cyan-900/30', 'dark:to-teal-900/30',
+    'dark:from-emerald-900/30', 'dark:to-green-900/30',
+    'dark:from-purple-900/30', 'dark:to-violet-900/30',
+    'dark:from-green-900/30', 'dark:to-lime-900/30',
+    'dark:from-rose-900/30', 'dark:to-pink-900/30',
+    'dark:from-indigo-900/30', 'dark:to-blue-900/30',
+    'dark:bg-blue-600', 'dark:bg-amber-600', 'dark:bg-cyan-600',
+    'dark:bg-emerald-600', 'dark:bg-purple-600', 'dark:bg-green-600',
+    'dark:bg-rose-600', 'dark:bg-indigo-600',
   ],
   
   theme: {
