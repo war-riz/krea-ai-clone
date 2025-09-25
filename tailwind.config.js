@@ -13,6 +13,10 @@ const config = {
     { pattern: /^bg-gradient-to-/ },
     { pattern: /^from-/ },
     { pattern: /^to-/ },
+    { pattern: /^bg-gradient-to-/ },
+    { pattern: /^from-(blue|amber|cyan|emerald|purple|green|rose|indigo)-(50|900)/ },
+    { pattern: /^to-(indigo|orange|teal|green|violet|lime|pink|blue)-(100|900)/ },
+    { pattern: /^bg-(blue|amber|cyan|emerald|purple|green|rose|indigo)-(500|600)/ },
     // Solid backgrounds
     { pattern: /^bg-(blue|amber|cyan|emerald|purple|green|rose|indigo)-(50|100|500|600|900)/ },
     // With opacity variations
