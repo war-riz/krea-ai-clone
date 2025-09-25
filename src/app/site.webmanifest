@@ -1,0 +1,9 @@
+{
+  "name": "Krea AI",
+  "short_name": "Krea AI",
+  "description": "AI Model Gallery",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
