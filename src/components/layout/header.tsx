@@ -79,7 +79,7 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 pb-2 w-full border-border/40 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/80">
+    <header className="sticky top-0 z-50 w-full border-border/40 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/80">
       <div className="w-full max-w-none flex h-14 items-center justify-between px-4 lg:px-6">
         {/* Left Section - Logo and User */}
         <div className="flex items-center space-x-3">
@@ -255,7 +255,7 @@ export function Header() {
         "md:hidden transition-all duration-300 ease-in-out overflow-hidden border-t border-border/40 mb-0",
         isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
       )}>
-        <div className="bg-background p-4">
+        <div className="bg-background p-0.5">
           <nav className="space-y-2">
             {CENTER_NAVIGATION_ITEMS.map((item) => {
               const IconComponent = item.icon!;
