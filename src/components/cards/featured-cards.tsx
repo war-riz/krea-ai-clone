@@ -91,7 +91,7 @@ export function FeaturedCards({ isLoading = false }: FeaturedCardsProps) {
 
   if (isLoading) {
     return (
-      <section className="py-8">
+      <section className="py-2 relative">
         <div className="flex items-center justify-between mb-6">
           <div className="h-8 w-48 bg-muted rounded-lg animate-pulse"></div>
           <div className="flex space-x-2">
@@ -138,7 +138,7 @@ export function FeaturedCards({ isLoading = false }: FeaturedCardsProps) {
   }
 
   return (
-    <section className="py-8 relative">
+    <section className="py-2 relative">
 
       <div 
         ref={scrollRef}

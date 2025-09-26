@@ -25,7 +25,7 @@ export function NotFoundPage() {
 
         {/* Main Content */}
         <div className="space-y-6 mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-white">
             Oops! Page Not Found
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-md mx-auto leading-relaxed">

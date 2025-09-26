@@ -252,7 +252,7 @@ export function Header() {
 
       {/* Mobile Navigation */}
       <div className={cn(
-        "md:hidden transition-all duration-300 ease-in-out overflow-hidden border-t border-border/40 mb-4",
+        "md:hidden transition-all duration-300 ease-in-out overflow-hidden border-t border-border/40 mb-0",
         isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
       )}>
         <div className="bg-background p-4">
