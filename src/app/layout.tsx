@@ -30,11 +30,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Script
-        defer
-        src="https://cloud.umami.is/script.js"
-        data-website-id="6d08cd72-8240-4b44-9c72-c17065388a5e"
-      ></Script>
+      <Script 
+        defer 
+        src="https://umami-production-c8ca.up.railway.app/script.js" 
+        data-website-id="487e7c6e-5c11-4f54-81e1-1959aa81f0c6"
+        ></Script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
